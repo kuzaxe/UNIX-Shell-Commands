@@ -1,0 +1,11 @@
+Part 8 - A3
+
+What Happens: 
+    'cd' command does not perform command when given proper argument. 
+    Ex: ./cd .. 
+
+Why This is: 
+    Because the working directory changes the directory of itself (argv[1]). 
+    When the program returns 0, the shell's working directory is restored. 
+
+end
